@@ -106,6 +106,10 @@ li {
   list-style: none;
 }
 
+p {
+  text-align: justify;
+}
+
 /* Selection */
 ::selection {
   background-color: var(--primary-glow);
@@ -422,9 +426,11 @@ li {
 .typewriter-cursor {
   display: inline-block;
   width: 2px;
+  height: 1.25em;
   background-color: var(--secondary);
   animation: blink 0.75s step-end infinite;
-  margin-left: 2px;
+  margin-left: 4px;
+  vertical-align: middle;
 }
 
 .hero-description {
