@@ -429,7 +429,7 @@ p {
   height: 1.25em;
   background-color: var(--secondary);
   animation: blink 0.75s step-end infinite;
-  margin-left: 4px;
+  margin-left: 0;
   vertical-align: middle;
 }
 
